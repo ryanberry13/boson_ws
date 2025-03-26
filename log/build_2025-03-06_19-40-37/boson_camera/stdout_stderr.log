@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target boson_camera_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/boson_camera_node.dir/src/boson_camera_node.cpp.o[0m
+[01m[K/home/mg-nx-bench/boson_ws/boson_camera/src/boson_camera_node.cpp:[m[K In member function ‘[01m[Kvoid BosonCameraNode::close_camera()[m[K’:
+[01m[K/home/mg-nx-bench/boson_ws/boson_camera/src/boson_camera_node.cpp:58:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ktype[m[K’ was not declared in this scope; did you mean ‘[01m[Ktype_[m[K’?
+   58 |         if( ioctl(fd_, VIDIOC_STREAMOFF, &[01;31m[Ktype[m[K) < 0 ){
+      |                                           [01;31m[K^~~~[m[K
+      |                                           [32m[Ktype_[m[K
+[01m[K/home/mg-nx-bench/boson_ws/boson_camera/src/boson_camera_node.cpp:59:24:[m[K [01;31m[Kerror: [m[K‘[01m[KRED[m[K’ was not declared in this scope
+   59 |                 perror([01;31m[KRED[m[K "VIDIOC_STREAMOFF" WHT);
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/mg-nx-bench/boson_ws/boson_camera/src/boson_camera_node.cpp:[m[K In function ‘[01m[Kvoid signal_handler(int)[m[K’:
+[01m[K/home/mg-nx-bench/boson_ws/boson_camera/src/boson_camera_node.cpp:138:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  138 | void signal_handler([01;35m[Kint signum[m[K) {
+      |                     [01;35m[K~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/boson_camera_node.dir/build.make:76: CMakeFiles/boson_camera_node.dir/src/boson_camera_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/boson_camera_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

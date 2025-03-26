@@ -1,0 +1,50 @@
+[0.029s] Invoking command in '/home/mg-nx-bench/boson_ws/build/boson_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mg-nx-bench/boson_ws/build/boson_camera -- -j4 -l4
+[0.081s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.365s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.435s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.440s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.451s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.558s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.560s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.755s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.852s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.920s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.085s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.085s] -- Configured cppcheck include dirs: 
+[1.085s] -- Configured cppcheck exclude dirs and/or files: 
+[1.086s] -- Added test 'lint_cmake' to check CMake code style
+[1.087s] -- Added test 'uncrustify' to check C / C++ code style
+[1.087s] -- Configured uncrustify additional arguments: 
+[1.088s] -- Added test 'xmllint' to check XML markup files
+[1.089s] -- Configuring done
+[1.131s] -- Generating done
+[1.146s] -- Build files have been written to: /home/mg-nx-bench/boson_ws/build/boson_camera
+[1.269s] [35m[1mConsolidate compiler generated dependencies of target boson_camera_node[0m
+[1.306s] [ 25%] [32mBuilding CXX object CMakeFiles/boson_viewer_node.dir/src/boson_viewer_node.cpp.o[0m
+[1.311s] [ 75%] Built target boson_camera_node
+[25.041s] [100%] [32m[1mLinking CXX executable boson_viewer_node[0m
+[26.079s] [100%] Built target boson_viewer_node
+[26.105s] Invoked command in '/home/mg-nx-bench/boson_ws/build/boson_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mg-nx-bench/boson_ws/build/boson_camera -- -j4 -l4
+[26.131s] Invoking command in '/home/mg-nx-bench/boson_ws/build/boson_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mg-nx-bench/boson_ws/build/boson_camera
+[26.146s] -- Install configuration: ""
+[26.146s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/lib/boson_camera/boson_camera_node
+[26.146s] -- Installing: /home/mg-nx-bench/boson_ws/install/boson_camera/lib/boson_camera/boson_viewer_node
+[26.156s] -- Set runtime path of "/home/mg-nx-bench/boson_ws/install/boson_camera/lib/boson_camera/boson_viewer_node" to ""
+[26.156s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/ament_index/resource_index/package_run_dependencies/boson_camera
+[26.157s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/ament_index/resource_index/parent_prefix_path/boson_camera
+[26.157s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/ament_prefix_path.sh
+[26.157s] -- Installing: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/ament_prefix_path.dsv
+[26.157s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/path.sh
+[26.157s] -- Installing: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/path.dsv
+[26.158s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.bash
+[26.158s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.sh
+[26.158s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.zsh
+[26.158s] -- Installing: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.dsv
+[26.158s] -- Installing: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.dsv
+[26.159s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/ament_index/resource_index/packages/boson_camera
+[26.159s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/cmake/boson_cameraConfig.cmake
+[26.159s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/cmake/boson_cameraConfig-version.cmake
+[26.159s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.xml
+[26.163s] Invoked command in '/home/mg-nx-bench/boson_ws/build/boson_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mg-nx-bench/boson_ws/build/boson_camera

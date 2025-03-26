@@ -1,0 +1,192 @@
+[0.000000] (-) TimerEvent: {}
+[0.003335] (boson_camera) JobQueued: {'identifier': 'boson_camera', 'dependencies': OrderedDict()}
+[0.007202] (boson_camera) JobStarted: {'identifier': 'boson_camera'}
+[0.029143] (boson_camera) JobProgress: {'identifier': 'boson_camera', 'progress': 'cmake'}
+[0.030241] (boson_camera) JobProgress: {'identifier': 'boson_camera', 'progress': 'build'}
+[0.032008] (boson_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mg-nx-bench/boson_ws/build/boson_camera', '--', '-j4', '-l4'], 'cwd': '/home/mg-nx-bench/boson_ws/build/boson_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mg-nx-bench'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/mg-nx-bench'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/mg-nx-bench/boson_ws/boson_camera'), ('TERM_PROGRAM_VERSION', '1.96.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2305'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mg-nx-bench/boson_ws/install:/home/mg-nx-bench/arena_camera_ros2-1.3/ros2_ws/install:/home/mg-nx-bench/fliradk_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mg-nx-bench'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mg-nx-bench'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/mg-nx-bench/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2278,unix/ubuntu:/tmp/.ICE-unix/2278'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ef39697_1d39_4626_b6d5_61a9d8490147'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('ARENA_ROOT', '/home/mg-nx-bench/ArenaSDK_Linux_ARM64'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-73822df20e.sock'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mg-nx-bench/arena_camera_ros2-1.3/ros2_ws/install/arena_camera_node:/home/mg-nx-bench/boson_ws/install/boson_camera:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mg-nx-bench/boson_ws/build/boson_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mg-nx-bench/boson_ws/install/boson_camera:/home/mg-nx-bench/arena_camera_ros2-1.3/ros2_ws/install/arena_camera_node:/opt/ros/humble')]), 'shell': False}
+[0.099840] (-) TimerEvent: {}
+[0.200561] (-) TimerEvent: {}
+[0.220850] (boson_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target boson_camera_node\x1b[0m\n'}
+[0.301918] (-) TimerEvent: {}
+[0.312477] (boson_camera) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/boson_camera_node.dir/src/boson_camera_node.cpp.o\x1b[0m\n'}
+[0.402105] (-) TimerEvent: {}
+[0.503333] (-) TimerEvent: {}
+[0.604042] (-) TimerEvent: {}
+[0.704762] (-) TimerEvent: {}
+[0.805431] (-) TimerEvent: {}
+[0.906160] (-) TimerEvent: {}
+[1.007984] (-) TimerEvent: {}
+[1.109542] (-) TimerEvent: {}
+[1.210351] (-) TimerEvent: {}
+[1.311100] (-) TimerEvent: {}
+[1.411943] (-) TimerEvent: {}
+[1.513918] (-) TimerEvent: {}
+[1.614637] (-) TimerEvent: {}
+[1.715403] (-) TimerEvent: {}
+[1.816517] (-) TimerEvent: {}
+[1.918139] (-) TimerEvent: {}
+[2.021001] (-) TimerEvent: {}
+[2.122904] (-) TimerEvent: {}
+[2.224471] (-) TimerEvent: {}
+[2.326351] (-) TimerEvent: {}
+[2.427100] (-) TimerEvent: {}
+[2.527816] (-) TimerEvent: {}
+[2.628541] (-) TimerEvent: {}
+[2.729373] (-) TimerEvent: {}
+[2.830150] (-) TimerEvent: {}
+[2.932231] (-) TimerEvent: {}
+[3.033945] (-) TimerEvent: {}
+[3.134673] (-) TimerEvent: {}
+[3.235385] (-) TimerEvent: {}
+[3.336101] (-) TimerEvent: {}
+[3.437424] (-) TimerEvent: {}
+[3.538173] (-) TimerEvent: {}
+[3.638910] (-) TimerEvent: {}
+[3.739606] (-) TimerEvent: {}
+[3.840306] (-) TimerEvent: {}
+[3.941018] (-) TimerEvent: {}
+[4.041778] (-) TimerEvent: {}
+[4.142498] (-) TimerEvent: {}
+[4.243202] (-) TimerEvent: {}
+[4.343974] (-) TimerEvent: {}
+[4.445097] (-) TimerEvent: {}
+[4.546032] (-) TimerEvent: {}
+[4.646914] (-) TimerEvent: {}
+[4.747628] (-) TimerEvent: {}
+[4.848356] (-) TimerEvent: {}
+[4.949294] (-) TimerEvent: {}
+[5.050000] (-) TimerEvent: {}
+[5.150752] (-) TimerEvent: {}
+[5.251523] (-) TimerEvent: {}
+[5.352267] (-) TimerEvent: {}
+[5.452984] (-) TimerEvent: {}
+[5.553722] (-) TimerEvent: {}
+[5.654477] (-) TimerEvent: {}
+[5.755212] (-) TimerEvent: {}
+[5.855951] (-) TimerEvent: {}
+[5.956714] (-) TimerEvent: {}
+[6.057491] (-) TimerEvent: {}
+[6.158503] (-) TimerEvent: {}
+[6.259500] (-) TimerEvent: {}
+[6.360234] (-) TimerEvent: {}
+[6.460943] (-) TimerEvent: {}
+[6.561802] (-) TimerEvent: {}
+[6.662555] (-) TimerEvent: {}
+[6.763266] (-) TimerEvent: {}
+[6.863980] (-) TimerEvent: {}
+[6.964715] (-) TimerEvent: {}
+[7.065478] (-) TimerEvent: {}
+[7.166251] (-) TimerEvent: {}
+[7.267053] (-) TimerEvent: {}
+[7.367767] (-) TimerEvent: {}
+[7.468491] (-) TimerEvent: {}
+[7.569180] (-) TimerEvent: {}
+[7.669919] (-) TimerEvent: {}
+[7.770624] (-) TimerEvent: {}
+[7.871365] (-) TimerEvent: {}
+[7.972100] (-) TimerEvent: {}
+[8.072877] (-) TimerEvent: {}
+[8.173635] (-) TimerEvent: {}
+[8.274353] (-) TimerEvent: {}
+[8.375086] (-) TimerEvent: {}
+[8.476027] (-) TimerEvent: {}
+[8.578232] (-) TimerEvent: {}
+[8.678996] (-) TimerEvent: {}
+[8.781102] (-) TimerEvent: {}
+[8.881866] (-) TimerEvent: {}
+[8.982587] (-) TimerEvent: {}
+[9.083295] (-) TimerEvent: {}
+[9.184008] (-) TimerEvent: {}
+[9.185797] (boson_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mg-nx-bench/boson_ws/boson_camera/src/boson_camera_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid signal_handler(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.186279] (boson_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mg-nx-bench/boson_ws/boson_camera/src/boson_camera_node.cpp:137:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksignum\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.186467] (boson_camera) StderrLine: {'line': b'  137 | void signal_handler(\x1b[01;35m\x1b[Kint signum\x1b[m\x1b[K) {\n'}
+[9.186620] (boson_camera) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[9.284186] (-) TimerEvent: {}
+[9.384925] (-) TimerEvent: {}
+[9.486639] (-) TimerEvent: {}
+[9.587384] (-) TimerEvent: {}
+[9.689009] (-) TimerEvent: {}
+[9.791077] (-) TimerEvent: {}
+[9.891889] (-) TimerEvent: {}
+[9.992616] (-) TimerEvent: {}
+[10.093347] (-) TimerEvent: {}
+[10.194080] (-) TimerEvent: {}
+[10.294784] (-) TimerEvent: {}
+[10.395504] (-) TimerEvent: {}
+[10.496220] (-) TimerEvent: {}
+[10.596950] (-) TimerEvent: {}
+[10.697726] (-) TimerEvent: {}
+[10.798448] (-) TimerEvent: {}
+[10.899190] (-) TimerEvent: {}
+[10.999894] (-) TimerEvent: {}
+[11.100612] (-) TimerEvent: {}
+[11.201353] (-) TimerEvent: {}
+[11.302063] (-) TimerEvent: {}
+[11.402797] (-) TimerEvent: {}
+[11.503506] (-) TimerEvent: {}
+[11.604222] (-) TimerEvent: {}
+[11.704932] (-) TimerEvent: {}
+[11.805655] (-) TimerEvent: {}
+[11.906371] (-) TimerEvent: {}
+[12.007102] (-) TimerEvent: {}
+[12.107844] (-) TimerEvent: {}
+[12.208559] (-) TimerEvent: {}
+[12.309292] (-) TimerEvent: {}
+[12.410033] (-) TimerEvent: {}
+[12.510749] (-) TimerEvent: {}
+[12.611451] (-) TimerEvent: {}
+[12.713069] (-) TimerEvent: {}
+[12.813760] (-) TimerEvent: {}
+[12.914434] (-) TimerEvent: {}
+[13.015109] (-) TimerEvent: {}
+[13.115799] (-) TimerEvent: {}
+[13.216475] (-) TimerEvent: {}
+[13.317164] (-) TimerEvent: {}
+[13.417864] (-) TimerEvent: {}
+[13.518542] (-) TimerEvent: {}
+[13.619219] (-) TimerEvent: {}
+[13.719896] (-) TimerEvent: {}
+[13.820585] (-) TimerEvent: {}
+[13.921697] (-) TimerEvent: {}
+[14.023494] (-) TimerEvent: {}
+[14.124176] (-) TimerEvent: {}
+[14.224837] (-) TimerEvent: {}
+[14.325550] (-) TimerEvent: {}
+[14.426225] (-) TimerEvent: {}
+[14.527076] (-) TimerEvent: {}
+[14.627762] (-) TimerEvent: {}
+[14.728468] (-) TimerEvent: {}
+[14.829206] (-) TimerEvent: {}
+[14.866926] (boson_camera) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable boson_camera_node\x1b[0m\n'}
+[14.929418] (-) TimerEvent: {}
+[15.030149] (-) TimerEvent: {}
+[15.130912] (-) TimerEvent: {}
+[15.231809] (-) TimerEvent: {}
+[15.333555] (-) TimerEvent: {}
+[15.434739] (-) TimerEvent: {}
+[15.476151] (boson_camera) StdoutLine: {'line': b'[100%] Built target boson_camera_node\n'}
+[15.502146] (boson_camera) CommandEnded: {'returncode': 0}
+[15.503402] (boson_camera) JobProgress: {'identifier': 'boson_camera', 'progress': 'install'}
+[15.523898] (boson_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mg-nx-bench/boson_ws/build/boson_camera'], 'cwd': '/home/mg-nx-bench/boson_ws/build/boson_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mg-nx-bench'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/mg-nx-bench'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/mg-nx-bench/boson_ws/boson_camera'), ('TERM_PROGRAM_VERSION', '1.96.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2305'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mg-nx-bench/boson_ws/install:/home/mg-nx-bench/arena_camera_ros2-1.3/ros2_ws/install:/home/mg-nx-bench/fliradk_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mg-nx-bench'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mg-nx-bench'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/mg-nx-bench/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2278,unix/ubuntu:/tmp/.ICE-unix/2278'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5ef39697_1d39_4626_b6d5_61a9d8490147'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('ARENA_ROOT', '/home/mg-nx-bench/ArenaSDK_Linux_ARM64'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-73822df20e.sock'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mg-nx-bench/arena_camera_ros2-1.3/ros2_ws/install/arena_camera_node:/home/mg-nx-bench/boson_ws/install/boson_camera:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mg-nx-bench/boson_ws/build/boson_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mg-nx-bench/boson_ws/install/boson_camera:/home/mg-nx-bench/arena_camera_ros2-1.3/ros2_ws/install/arena_camera_node:/opt/ros/humble')]), 'shell': False}
+[15.534872] (-) TimerEvent: {}
+[15.543297] (boson_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.543821] (boson_camera) StdoutLine: {'line': b'-- Installing: /home/mg-nx-bench/boson_ws/install/boson_camera/lib/boson_camera/boson_camera_node\n'}
+[15.546666] (boson_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/mg-nx-bench/boson_ws/install/boson_camera/lib/boson_camera/boson_camera_node" to ""\n'}
+[15.547230] (boson_camera) StdoutLine: {'line': b'-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/ament_index/resource_index/package_run_dependencies/boson_camera\n'}
+[15.547507] (boson_camera) StdoutLine: {'line': b'-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/ament_index/resource_index/parent_prefix_path/boson_camera\n'}
+[15.547706] (boson_camera) StdoutLine: {'line': b'-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/ament_prefix_path.sh\n'}
+[15.547866] (boson_camera) StdoutLine: {'line': b'-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/ament_prefix_path.dsv\n'}
+[15.548042] (boson_camera) StdoutLine: {'line': b'-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/path.sh\n'}
+[15.548355] (boson_camera) StdoutLine: {'line': b'-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/path.dsv\n'}
+[15.548507] (boson_camera) StdoutLine: {'line': b'-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.bash\n'}
+[15.548651] (boson_camera) StdoutLine: {'line': b'-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.sh\n'}
+[15.548790] (boson_camera) StdoutLine: {'line': b'-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.zsh\n'}
+[15.548923] (boson_camera) StdoutLine: {'line': b'-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.dsv\n'}
+[15.549055] (boson_camera) StdoutLine: {'line': b'-- Installing: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.dsv\n'}
+[15.549186] (boson_camera) StdoutLine: {'line': b'-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/ament_index/resource_index/packages/boson_camera\n'}
+[15.549438] (boson_camera) StdoutLine: {'line': b'-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/cmake/boson_cameraConfig.cmake\n'}
+[15.549582] (boson_camera) StdoutLine: {'line': b'-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/cmake/boson_cameraConfig-version.cmake\n'}
+[15.549718] (boson_camera) StdoutLine: {'line': b'-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.xml\n'}
+[15.552778] (boson_camera) CommandEnded: {'returncode': 0}
+[15.603065] (boson_camera) JobEnded: {'identifier': 'boson_camera', 'rc': 0}
+[15.605180] (-) EventReactorShutdown: {}

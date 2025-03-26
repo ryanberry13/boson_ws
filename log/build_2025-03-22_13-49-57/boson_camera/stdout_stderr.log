@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target bayer_to_rgb_node[0m
+[ 33%] Built target boson_camera_node
+[35m[1mConsolidate compiler generated dependencies of target boson_viewer_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bayer_to_rgb_node.dir/src/bayer_to_rgb_node.cpp.o[0m
+[ 83%] Built target boson_viewer_node
+[100%] [32m[1mLinking CXX executable bayer_to_rgb_node[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[100%] Built target bayer_to_rgb_node
+-- Install configuration: ""
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/lib/boson_camera/boson_camera_node
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/lib/boson_camera/boson_viewer_node
+-- Installing: /home/mg-nx-bench/boson_ws/install/boson_camera/lib/boson_camera/bayer_to_rgb_node
+-- Set runtime path of "/home/mg-nx-bench/boson_ws/install/boson_camera/lib/boson_camera/bayer_to_rgb_node" to ""
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/ament_index/resource_index/package_run_dependencies/boson_camera
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/ament_index/resource_index/parent_prefix_path/boson_camera
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/path.sh
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/path.dsv
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.bash
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.sh
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.zsh
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.dsv
+-- Installing: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.dsv
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/ament_index/resource_index/packages/boson_camera
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/cmake/boson_cameraConfig.cmake
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/cmake/boson_cameraConfig-version.cmake
+-- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.xml

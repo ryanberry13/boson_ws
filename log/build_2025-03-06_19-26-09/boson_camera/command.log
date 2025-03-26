@@ -1,0 +1,6 @@
+Invoking command in '/home/mg-nx-bench/boson_ws/build/boson_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mg-nx-bench/boson_ws/boson_camera -DCMAKE_INSTALL_PREFIX=/home/mg-nx-bench/boson_ws/install/boson_camera
+Invoked command in '/home/mg-nx-bench/boson_ws/build/boson_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mg-nx-bench/boson_ws/boson_camera -DCMAKE_INSTALL_PREFIX=/home/mg-nx-bench/boson_ws/install/boson_camera
+Invoking command in '/home/mg-nx-bench/boson_ws/build/boson_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mg-nx-bench/boson_ws/build/boson_camera -- -j4 -l4
+Invoked command in '/home/mg-nx-bench/boson_ws/build/boson_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mg-nx-bench/boson_ws/build/boson_camera -- -j4 -l4
+Invoking command in '/home/mg-nx-bench/boson_ws/build/boson_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mg-nx-bench/boson_ws/build/boson_camera
+Invoked command in '/home/mg-nx-bench/boson_ws/build/boson_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mg-nx-bench/boson_ws/build/boson_camera

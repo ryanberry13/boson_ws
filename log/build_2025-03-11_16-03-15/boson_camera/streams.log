@@ -1,0 +1,32 @@
+[0.030s] Invoking command in '/home/mg-nx-bench/boson_ws/build/boson_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mg-nx-bench/boson_ws/build/boson_camera -- -j4 -l4
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target boson_viewer_node[0m
+[0.175s] [ 25%] [32mBuilding CXX object CMakeFiles/boson_camera_node.dir/src/boson_camera_node.cpp.o[0m
+[0.222s] [ 75%] Built target boson_viewer_node
+[8.955s] [01m[K/home/mg-nx-bench/boson_ws/boson_camera/src/boson_camera_node.cpp:[m[K In function ‘[01m[Kvoid signal_handler(int)[m[K’:
+[8.955s] [01m[K/home/mg-nx-bench/boson_ws/boson_camera/src/boson_camera_node.cpp:137:25:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.955s]   137 | void signal_handler([01;35m[Kint signum[m[K) {
+[8.955s]       |                     [01;35m[K~~~~^~~~~~[m[K
+[14.713s] [100%] [32m[1mLinking CXX executable boson_camera_node[0m
+[15.224s] [100%] Built target boson_camera_node
+[15.252s] Invoked command in '/home/mg-nx-bench/boson_ws/build/boson_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mg-nx-bench/boson_ws/build/boson_camera -- -j4 -l4
+[15.275s] Invoking command in '/home/mg-nx-bench/boson_ws/build/boson_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mg-nx-bench/boson_ws/build/boson_camera
+[15.291s] -- Install configuration: ""
+[15.292s] -- Installing: /home/mg-nx-bench/boson_ws/install/boson_camera/lib/boson_camera/boson_camera_node
+[15.294s] -- Set runtime path of "/home/mg-nx-bench/boson_ws/install/boson_camera/lib/boson_camera/boson_camera_node" to ""
+[15.297s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/lib/boson_camera/boson_viewer_node
+[15.298s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/ament_index/resource_index/package_run_dependencies/boson_camera
+[15.298s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/ament_index/resource_index/parent_prefix_path/boson_camera
+[15.298s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/ament_prefix_path.sh
+[15.299s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/ament_prefix_path.dsv
+[15.299s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/path.sh
+[15.299s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/environment/path.dsv
+[15.301s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.bash
+[15.302s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.sh
+[15.306s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.zsh
+[15.308s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/local_setup.dsv
+[15.308s] -- Installing: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.dsv
+[15.308s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/ament_index/resource_index/packages/boson_camera
+[15.309s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/cmake/boson_cameraConfig.cmake
+[15.309s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/cmake/boson_cameraConfig-version.cmake
+[15.309s] -- Up-to-date: /home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.xml
+[15.310s] Invoked command in '/home/mg-nx-bench/boson_ws/build/boson_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mg-nx-bench/boson_ws/build/boson_camera

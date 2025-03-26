@@ -1,0 +1,127 @@
+[0.283s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.283s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff95aa09d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff95aa05e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff95aa05e0>>)
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.756s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mg-nx-bench/boson_ws'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(boson_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(boson_camera) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(boson_camera) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(boson_camera) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(boson_camera) by extension 'colcon_pkg'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(boson_camera) by extensions ['colcon_meta']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(boson_camera) by extension 'colcon_meta'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(boson_camera) by extensions ['ros']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(boson_camera) by extension 'ros'
+[0.798s] DEBUG:colcon.colcon_core.package_identification:Package 'boson_camera' with type 'ros.ament_cmake' and name 'boson_camera'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.852s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.852s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.858s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mg-nx-bench/boson_ws/install
+[0.861s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/humble
+[0.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.006s] Level 5:colcon.colcon_core.verb:set package 'boson_camera' build argument 'cmake_args' from command line to 'None'
+[1.006s] Level 5:colcon.colcon_core.verb:set package 'boson_camera' build argument 'cmake_target' from command line to 'None'
+[1.006s] Level 5:colcon.colcon_core.verb:set package 'boson_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.006s] Level 5:colcon.colcon_core.verb:set package 'boson_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.006s] Level 5:colcon.colcon_core.verb:set package 'boson_camera' build argument 'cmake_clean_first' from command line to 'False'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'boson_camera' build argument 'cmake_force_configure' from command line to 'False'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'boson_camera' build argument 'ament_cmake_args' from command line to 'None'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'boson_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.007s] Level 5:colcon.colcon_core.verb:set package 'boson_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.007s] DEBUG:colcon.colcon_core.verb:Building package 'boson_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mg-nx-bench/boson_ws/build/boson_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mg-nx-bench/boson_ws/install/boson_camera', 'merge_install': False, 'path': '/home/mg-nx-bench/boson_ws/boson_camera', 'symlink_install': False, 'test_result_base': None}
+[1.007s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.010s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.010s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mg-nx-bench/boson_ws/boson_camera' with build type 'ament_cmake'
+[1.011s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mg-nx-bench/boson_ws/boson_camera'
+[1.019s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.020s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.020s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mg-nx-bench/boson_ws/build/boson_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mg-nx-bench/boson_ws/build/boson_camera -- -j4 -l4
+[24.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mg-nx-bench/boson_ws/build/boson_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mg-nx-bench/boson_ws/build/boson_camera -- -j4 -l4
+[24.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mg-nx-bench/boson_ws/build/boson_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mg-nx-bench/boson_ws/build/boson_camera
+[24.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(boson_camera)
+[24.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mg-nx-bench/boson_ws/build/boson_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mg-nx-bench/boson_ws/build/boson_camera
+[24.943s] Level 1:colcon.colcon_core.environment:checking '/home/mg-nx-bench/boson_ws/install/boson_camera' for CMake module files
+[24.944s] Level 1:colcon.colcon_core.environment:checking '/home/mg-nx-bench/boson_ws/install/boson_camera' for CMake config files
+[24.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('boson_camera', 'cmake_prefix_path')
+[24.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/hook/cmake_prefix_path.ps1'
+[24.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/hook/cmake_prefix_path.dsv'
+[24.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/hook/cmake_prefix_path.sh'
+[24.952s] Level 1:colcon.colcon_core.environment:checking '/home/mg-nx-bench/boson_ws/install/boson_camera/lib'
+[24.952s] Level 1:colcon.colcon_core.environment:checking '/home/mg-nx-bench/boson_ws/install/boson_camera/bin'
+[24.953s] Level 1:colcon.colcon_core.environment:checking '/home/mg-nx-bench/boson_ws/install/boson_camera/lib/pkgconfig/boson_camera.pc'
+[24.953s] Level 1:colcon.colcon_core.environment:checking '/home/mg-nx-bench/boson_ws/install/boson_camera/lib/python3.10/site-packages'
+[24.954s] Level 1:colcon.colcon_core.environment:checking '/home/mg-nx-bench/boson_ws/install/boson_camera/bin'
+[24.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.ps1'
+[24.957s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.dsv'
+[24.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.sh'
+[24.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.bash'
+[24.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.zsh'
+[24.968s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mg-nx-bench/boson_ws/install/boson_camera/share/colcon-core/packages/boson_camera)
+[24.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(boson_camera)
+[24.970s] Level 1:colcon.colcon_core.environment:checking '/home/mg-nx-bench/boson_ws/install/boson_camera' for CMake module files
+[24.971s] Level 1:colcon.colcon_core.environment:checking '/home/mg-nx-bench/boson_ws/install/boson_camera' for CMake config files
+[24.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('boson_camera', 'cmake_prefix_path')
+[24.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/hook/cmake_prefix_path.ps1'
+[24.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/hook/cmake_prefix_path.dsv'
+[24.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/hook/cmake_prefix_path.sh'
+[24.976s] Level 1:colcon.colcon_core.environment:checking '/home/mg-nx-bench/boson_ws/install/boson_camera/lib'
+[24.976s] Level 1:colcon.colcon_core.environment:checking '/home/mg-nx-bench/boson_ws/install/boson_camera/bin'
+[24.977s] Level 1:colcon.colcon_core.environment:checking '/home/mg-nx-bench/boson_ws/install/boson_camera/lib/pkgconfig/boson_camera.pc'
+[24.977s] Level 1:colcon.colcon_core.environment:checking '/home/mg-nx-bench/boson_ws/install/boson_camera/lib/python3.10/site-packages'
+[24.978s] Level 1:colcon.colcon_core.environment:checking '/home/mg-nx-bench/boson_ws/install/boson_camera/bin'
+[24.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.ps1'
+[24.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.dsv'
+[24.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.sh'
+[24.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.bash'
+[24.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/mg-nx-bench/boson_ws/install/boson_camera/share/boson_camera/package.zsh'
+[24.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mg-nx-bench/boson_ws/install/boson_camera/share/colcon-core/packages/boson_camera)
+[24.985s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.986s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.987s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.987s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.005s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.006s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.006s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.043s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mg-nx-bench/boson_ws/install/local_setup.ps1'
+[25.048s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mg-nx-bench/boson_ws/install/_local_setup_util_ps1.py'
+[25.053s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mg-nx-bench/boson_ws/install/setup.ps1'
+[25.057s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mg-nx-bench/boson_ws/install/local_setup.sh'
+[25.059s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mg-nx-bench/boson_ws/install/_local_setup_util_sh.py'
+[25.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mg-nx-bench/boson_ws/install/setup.sh'
+[25.064s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mg-nx-bench/boson_ws/install/local_setup.bash'
+[25.066s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mg-nx-bench/boson_ws/install/setup.bash'
+[25.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mg-nx-bench/boson_ws/install/local_setup.zsh'
+[25.070s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mg-nx-bench/boson_ws/install/setup.zsh'
