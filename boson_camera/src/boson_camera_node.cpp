@@ -134,21 +134,21 @@ private:
 // Global pointer for handling shutdown
 std::shared_ptr<BosonCameraNode> node_ptr;
 
-void signal_handler(int signum) {
-    RCLCPP_INFO(rclcpp::get_logger("boson_camera"), "Received SIGINT (Ctrl+C), shutting down...");
-    if (node_ptr) {
-        node_ptr->close_camera();
-    }
-    rclcpp::shutdown();
-    exit(0);
-}
+// void signal_handler(int signum) {
+//     RCLCPP_INFO(rclcpp::get_logger("boson_camera"), "Received SIGINT (Ctrl+C), shutting down...");
+//     if (node_ptr) {
+//         node_ptr->close_camera();
+//     }
+//     rclcpp::shutdown();
+//     exit(0);
+// }
 
 int main(int argc, char **argv) {
     rclcpp::init(argc, argv);
     node_ptr = std::make_shared<BosonCameraNode>();
 
     // Register signal handler for Ctrl+C (SIGINT)
-    signal(SIGINT, signal_handler);
+    // signal(SIGINT, signal_handler);
 
     node_ptr->capture_frames();  // Infinite loop, no frame rate control
 
