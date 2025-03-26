@@ -20,7 +20,7 @@ private:
             
             cv::Mat rgb_image;
             // Convert Bayer RG8 to RGB
-            cv::cvtColor(cv_ptr->image, rgb_image, cv::COLOR_BayerRGGB2RGB);
+            cv::cvtColor(cv_ptr->image, rgb_image, cv::COLOR_BayerBG2RGB);
             
             // Convert back to ROS message
             auto rgb_msg = cv_bridge::CvImage(msg->header, "rgb8", rgb_image).toImageMsg();
