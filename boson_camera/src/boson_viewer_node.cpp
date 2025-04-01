@@ -8,7 +8,7 @@ class BosonViewerNode : public rclcpp::Node {
 public:
     BosonViewerNode() : Node("boson_viewer_node") {
         sub_ = this->create_subscription<sensor_msgs::msg::Image>(
-            "ir_throttle", 10,
+            "thermal_image_16", 10,
             std::bind(&BosonViewerNode::process_image, this, std::placeholders::_1));
 
         pub_ = this->create_publisher<sensor_msgs::msg::Image>("thermal_image_viewer", 10);
